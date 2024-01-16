@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Retail Store Management</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <h2> Retail Store Management</h2>
+  <form id="add-form">
+    <label>County:</label>
+    <input type="text" id="county" name="county">
+<label>State:</label>
+    <input type="text" id="state" name="state">
+    <label>City:</label>
+    <input type="text" id="city" name="city">
+     
+
+    <button type="button" onclick="addRow()">Add</button>
+  </form>
+  <table id="table">
+    <thead>
+      <tr>
+        <th>County</th>
+        <th>State</th>
+        <th>City</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows will be added dynamically -->
+    </tbody>
+  </table>
+
+</body>
+
+</html>
